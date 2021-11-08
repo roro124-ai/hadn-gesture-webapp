@@ -11,6 +11,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
   
       <link rel="stylesheet" type="text/css" href="style.css">
+      <script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "></script>
     </head>
   
     <body>
@@ -52,7 +53,7 @@
             <label>webcam - </label>
           <div id="camera"></div>
             <br><br>
-            <button class="btn btn-success button" onclick="take_picture()">Take Picture</button>
+            <button class="btn btn-success button" onclick="take_snapshot()">Take Picture</button>
             </div>
         
           <div class="col-md-4 col-sm-12 col-xs-12">
@@ -74,7 +75,7 @@
   
             <div id="result"></div>
   <br><br>
-            <button class="btn btn-info" onclick="predict_emotion()">Predict Gesture</button>
+            <button class="btn btn-info" onclick="check()">Predict Gesture</button>
             
   
           </div>
